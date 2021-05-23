@@ -1,4 +1,4 @@
-import requests as r
+import requests as r;
 def Get_Prices(origin="JAX", destination="NYC", month="AUGUST 2021", data=None):
 	url = "https://jbrest.jetblue.com/bff/bff-service/bestFares"
 	headers ={
